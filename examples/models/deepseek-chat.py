@@ -16,6 +16,7 @@ if deepseek_api_key is None:
 	print('export DEEPSEEK_API_KEY=your_key')
 	exit(0)
 
+os.environ["ANONYMIZED_TELEMETRY"] = "false"
 
 async def main():
 	llm = ChatDeepSeek(
