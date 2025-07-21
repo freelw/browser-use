@@ -25,7 +25,7 @@ async def main():
 	)
 
 	agent = Agent(
-		task='What should we pay attention to in the recent new rules on tariffs in China-US trade?',
+		task='navigate to bilibili.com and search for "DeepSeek AI"',
 		llm=llm,
 		use_vision=False,
 		message_context=extend_system_message,
